@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="app-title">Advanced To-Do List</h1>
+    <div class="input-container">
+      <input type="text" id="todo-input" placeholder="Add a new task...">
+      <button id="add-btn">Add</button>
+    </div>
+
+    <div class="filter-container">
+      <button class="filter-btn" id="all-btn">All</button>
+      <button class="filter-btn" id="completed-btn">Completed</button>
+      <button class="filter-btn" id="pending-btn">Pending</button>
+    </div>
+
+    <ul id="todo-list"></ul>
+
+    <button id="clear-btn">Clear All</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
